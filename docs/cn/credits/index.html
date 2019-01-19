@@ -12,17 +12,19 @@
     <title>Crédits :: ElegantLaTeX 系列模板文档说明</title>
 
     
-    <link href="/css/nucleus.css?1547882852" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1547882852" rel="stylesheet">
-    <link href="/css/hybrid.css?1547882852" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1547882852" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1547882852" rel="stylesheet">
-    <link href="/css/auto-complete.css?1547882852" rel="stylesheet">
-    <link href="/css/theme.css?1547882852" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1547882852" rel="stylesheet">
+    <link href="/css/nucleus.css?1547890604" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1547890604" rel="stylesheet">
+    <link href="/css/hybrid.css?1547890604" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1547890604" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1547890604" rel="stylesheet">
+    <link href="/css/auto-complete.css?1547890604" rel="stylesheet">
+    <link href="/css/theme.css?1547890604" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1547890604" rel="stylesheet">
+    
+      <link href="/css/theme-blue.css?1547890604" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1547882852"></script>
+    <script src="/js/jquery-2.x.min.js?1547890604"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -31,6 +33,22 @@
       
     </style>
      
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    jax: ["input/TeX", "output/HTML-CSS"],
+    extensions: ["tex2jax.js"],
+    tex2jax: {
+        inlineMath: [ ['$', '$'],["\\(","\\)"] ],
+        displayMath: [ ['$$', '$$'], ["\\[","\\]"]],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+
+    "HTML-CSS": {availableFonts: ["TeX"]}
+});
+</script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
  <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/regular.js" integrity="sha384-V+AkgA1cZ+p3DRK63AHCaXvO68V7B5eHoxl7QVN21zftbkFn/sGAIVR7vmQL3Zhp" crossorigin="anonymous"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/fontawesome.js" integrity="sha384-treYPdjUrP4rW5q82SnECO7TPVAz4bpas16yuE9F5o7CeBn2YYw1yr5oC8s8Mf8t" crossorigin="anonymous"></script>
@@ -38,17 +56,28 @@
 <style type="text/css">
      
     body {
-  	font-family:  Microsoft Yahei, Myriad Pro, Palatino Linotype, Garamond, Ubuntu, AR PL UMing HK, Open Sans, 微软雅黑, Simsun, serif;
+  	font-family:  Microsoft Yahei, Open Sans, Myriad Pro, Palatino Linotype, Garamond, Ubuntu, AR PL UMing HK, Open Sans, 微软雅黑, Simsun, serif;
+  	font-size: 16px !important;
 }
 
 code {
-  font-family: Ubuntu Mono, Fira Mono, Lucida Console, Courier New, Monaco, Kaiti, Microsoft Yahei, monospace;
-  font-size: 95%;
+  font-family:  Fira Mono,Ubuntu Mono, Lucida Console, Courier New, Monaco, 楷体, Microsoft Yahei, monospace;
+
+}
+
+pre {
+    padding: 0rem;
+    margin: 0rem 0;
+    border: 0;
+    border-radius: 2px;
+    font-size: 80%;
+    line-height: 150% !important;
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: Microsoft Yahei,黑体,微软雅黑, Microsoft Yahei,  Alegreya, AR PL UMing HK, Open Sans, Arial,sans-serif;
+	font-family:Palatino Linotype,Microsoft Yahei,黑体,Times New Roman,黑体,Microsoft Yahei,微软雅黑, Microsoft Yahei,  Alegreya, AR PL UMing HK, Open Sans, Arial,sans-serif;
 	text-transform:none;
+	font-weight: bold;
 }
 
 #sidebar #shortcuts h3{
@@ -66,10 +95,29 @@ h2, h3, h4, h5, h6 {
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit;
 }
+
+
+
+#body .padding {
+    padding: 0rem 6rem;
+}
+#div .header {
+	padding: 0rem 6rem;
+}
+
+.searchbox {
+    margin-top: 0.1rem;
+}
+#header-wrapper {
+    border-top: 4px solid #9c6fb6;
+    padding: 1.2rem;
+}
+
 h1 {
 	font-size: 2.5rem;
-	line-height: 110% !important;
-  	margin: 2.5rem 0 1.5rem 0;
+	 
+  	margin: 2.5rem 0 2.0rem 0;
+
 }
 
 body #chapter h1 {
@@ -77,26 +125,26 @@ body #chapter h1 {
 }
 
 h2 {
-  font-size: 2rem;
-  line-height: 110% !important;
+  font-size: 1.5rem;
+   
   margin: 2.5rem 0 1.5rem 0;
 }
 
 h3 {
-  font-size: 1.5rem;
-  line-height: 110% !important;
+  font-size: 1.3rem;
+   
   margin: 2rem 0 1rem 0;
 }
 
 h4 {
   font-size: 1.2rem;
-  line-height: 110% !important;
+   
   margin: 1.5rem 0 0.75rem 0;
 }
 
 h5 {
   font-size: 1rem;
-  line-height: 110% !important;
+   
   margin: 1rem 0 0.2rem 0;
 }
 
@@ -157,14 +205,14 @@ figcaption h4 {
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1547882852"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1547882852"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1547890604"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1547890604"></script>
 <script type="text/javascript">
     
         var baseurl = "\/\/cn";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1547882852"></script>
+<script type="text/javascript" src="/js/search.js?1547890604"></script>
 
     
   </div>
@@ -180,13 +228,13 @@ figcaption h4 {
  
   
     
-    <li data-nav-id="/cn/basics/" title="Démarrage" class="dd-item 
+    <li data-nav-id="/cn/elegantnote/" title="ElegantNote" class="dd-item 
         
         
         
         ">
-      <a href="/cn/basics/">
-          <b>1. </b>Démarrage
+      <a href="/cn/elegantnote/">
+          <b>1. </b>ElegantNote
           
             <i class="fas read-icon"></i>
           
@@ -204,42 +252,13 @@ figcaption h4 {
  
   
     
-    <li data-nav-id="/cn/cont/" title="Contenu" class="dd-item 
+    <li data-nav-id="/cn/elegantbook/" title="ElegantBook" class="dd-item 
         
         
         
         ">
-      <a href="/cn/cont/">
-          <b>2. </b>Contenu
-          
-            <i class="fas read-icon"></i>
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-            
-          
-          
-          
-        
-          
-            
-            
-
-
- 
-  
-    
-    <li data-nav-id="/cn/cont/pages/" title="Organisation des pages" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/cn/cont/pages/">
-          Organisation des pages
+      <a href="/cn/elegantbook/">
+          <b>2. </b>ElegantBook
           
             <i class="fas read-icon"></i>
           
@@ -250,386 +269,20 @@ figcaption h4 {
   
  
 
-            
           
-            
-            
+          
 
 
  
   
     
-      <li data-nav-id="/cn/cont/archetypes/" title="Archétypes" class="dd-item ">
-        <a href="/cn/cont/archetypes/">
-        Archétypes
-        <i class="fas fa-check read-icon"></i>
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
- 
-  
-    
-      <li data-nav-id="/cn/cont/markdown/" title="Syntaxe Markdown" class="dd-item ">
-        <a href="/cn/cont/markdown/">
-        Syntaxe Markdown
-        <i class="fas fa-check read-icon"></i>
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
- 
-  
-    
-      <li data-nav-id="/cn/cont/menushortcuts/" title="Raccourcis du menu" class="dd-item ">
-        <a href="/cn/cont/menushortcuts/">
-        Raccourcis du menu
-        <i class="fas fa-check read-icon"></i>
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
- 
-  
-    
-    <li data-nav-id="/cn/cont/i18n/" title="Multi-langue et i18n" class="dd-item 
+    <li data-nav-id="/cn/elegantpaper/" title="ElegantPaper" class="dd-item 
         
         
         
         ">
-      <a href="/cn/cont/i18n/">
-          Multi-langue et i18n
-          
-            <i class="fas read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-          
-          
-
-
- 
-  
-    
-    <li data-nav-id="/cn/shortcodes/" title="Shortcodes" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/cn/shortcodes/">
-          <b>3. </b>Shortcodes
-          
-            <i class="fas read-icon"></i>
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-            
-          
-          
-          
-        
-          
-            
-            
-
-
- 
-  
-    
-      <li data-nav-id="/cn/shortcodes/attachments/" title="Attachments (Pièces jointes)" class="dd-item ">
-        <a href="/cn/shortcodes/attachments/">
-        Attachments (Pièces jointes)
-        <i class="fas fa-check read-icon"></i>
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
- 
-  
-    
-      <li data-nav-id="/cn/shortcodes/button/" title="Button (Bouton)" class="dd-item ">
-        <a href="/cn/shortcodes/button/">
-        Button (Bouton)
-        <i class="fas fa-check read-icon"></i>
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
- 
-  
-    
-    <li data-nav-id="/cn/shortcodes/children/" title="Children (Pages filles)" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/cn/shortcodes/children/">
-          Children (Pages filles)
-          
-            <i class="fas read-icon"></i>
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-            
-          
-          
-          
-        
-          
-            
-            
-
-
- 
-  
-    
-    <li data-nav-id="/cn/shortcodes/children/children-1/" title="page 1" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/cn/shortcodes/children/children-1/">
-          page 1
-          
-            <i class="fas read-icon"></i>
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-            
-          
-          
-          
-        
-          
-            
-            
-
-
- 
-  
-    
-    <li data-nav-id="/cn/shortcodes/children/children-1/children-1-1/" title="page 1-1" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/cn/shortcodes/children/children-1/children-1-1/">
-          page 1-1
-          
-            <i class="fas read-icon"></i>
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-            
-          
-          
-          
-        
-          
-            
-            
-
-
- 
-  
-    
-    <li data-nav-id="/cn/shortcodes/children/children-1/children-1-1/children-1-1-1/" title="page 1-1-1" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/cn/shortcodes/children/children-1/children-1-1/children-1-1-1/">
-          page 1-1-1
-          
-            <i class="fas read-icon"></i>
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-            
-          
-          
-          
-        
-          
-            
-            
-
-
- 
-  
-    
-    <li data-nav-id="/cn/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/" title="page 1-1-1-1" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/cn/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/">
-          page 1-1-1-1
-          
-            <i class="fas read-icon"></i>
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-            
-          
-          
-          
-        
-          
-            
-            
-
-
- 
-  
-    
-    <li data-nav-id="/cn/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/" title="page 1-1-1-1-1" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/cn/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/">
-          page 1-1-1-1-1
-          
-            <i class="fas read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
- 
-  
-    
-    <li data-nav-id="/cn/shortcodes/children/children-2/" title="page 2" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/cn/shortcodes/children/children-2/">
-          page 2
+      <a href="/cn/elegantpaper/">
+          <b>3. </b>ElegantPaper
           
             <i class="fas read-icon"></i>
           
@@ -650,94 +303,9 @@ figcaption h4 {
  
   
     
-      <li data-nav-id="/cn/shortcodes/children/children-2/test3/" title="page test 3" class="dd-item ">
-        <a href="/cn/shortcodes/children/children-2/test3/">
-        page test 3
-        <i class="fas fa-check read-icon"></i>
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
- 
-  
-    
-    <li data-nav-id="/cn/shortcodes/children/children-3/" title="page 3" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/cn/shortcodes/children/children-3/">
-          page 3
-          
-            <i class="fas read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-             
-            
-          
-            
-            
-
-
- 
-  
-    
-      <li data-nav-id="/cn/shortcodes/children/test/" title="page test" class="dd-item ">
-        <a href="/cn/shortcodes/children/test/">
-        page test
-        <i class="fas fa-check read-icon"></i>
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
- 
-  
-    
-      <li data-nav-id="/cn/shortcodes/expand/" title="Expand" class="dd-item ">
-        <a href="/cn/shortcodes/expand/">
-        Expand
+      <li data-nav-id="/cn/elegantpaper/options/" title="模板选项" class="dd-item ">
+        <a href="/cn/elegantpaper/options/">
+        模板选项
         <i class="fas fa-check read-icon"></i>
         </a>
     </li>
@@ -754,47 +322,9 @@ figcaption h4 {
  
   
     
-      <li data-nav-id="/cn/shortcodes/mermaid/" title="Mermaid" class="dd-item ">
-        <a href="/cn/shortcodes/mermaid/">
-        Mermaid
-        <i class="fas fa-check read-icon"></i>
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
- 
-  
-    
-      <li data-nav-id="/cn/shortcodes/notice/" title="Notice" class="dd-item ">
-        <a href="/cn/shortcodes/notice/">
-        Notice
-        <i class="fas fa-check read-icon"></i>
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
- 
-  
-    
-      <li data-nav-id="/cn/shortcodes/siteparam/" title="Site param" class="dd-item ">
-        <a href="/cn/shortcodes/siteparam/">
-        Site param
+      <li data-nav-id="/cn/elegantpaper/fonts/" title="字体设置" class="dd-item ">
+        <a href="/cn/elegantpaper/fonts/">
+        字体设置
         <i class="fas fa-check read-icon"></i>
         </a>
     </li>
@@ -948,8 +478,6 @@ figcaption h4 {
 <li>
 <ul>
 <li><a href="#contributeurs">Contributeurs</a></li>
-<li><a href="#packages-et-librairies">Packages et librairies</a></li>
-<li><a href="#outils">Outils</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -975,276 +503,6 @@ figcaption h4 {
 <h2 id="contributeurs">Contributeurs</h2>
 
 <p>Merci à eux <i class="fas fa-heart"></i> de rendre le monde Open Source meilleur  !</p>
-
-<style type="text/css">
-.ghContributors{
-display:flex;
-flex-flow:  wrap;
-align-content: flex-start
-}
-
-.ghContributors > div{
-width: 50% ;
-display: inline-flex;
-margin-bottom: 5px;
-}
-.ghContributors > div label{
-padding-left: 4px ;
-}
-.ghContributors > div span{
-font-size: x-small;
-padding-left: 4px ;
-}
-
-</style>
-<div class="ghContributors">
-  
-  
-  <div>
-    <img src="https://avatars2.githubusercontent.com/u/3520706?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/matcornic">@matcornic</a></label>
-    <span class="contributions">149 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars3.githubusercontent.com/u/2432342?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/matalo33">@matalo33</a></label>
-    <span class="contributions">27 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars1.githubusercontent.com/u/7275622?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/lierdakil">@lierdakil</a></label>
-    <span class="contributions">16 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars0.githubusercontent.com/u/3499740?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/gwleclerc">@gwleclerc</a></label>
-    <span class="contributions">13 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars1.githubusercontent.com/u/171503?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/mdavids">@mdavids</a></label>
-    <span class="contributions">10 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars2.githubusercontent.com/u/1212885?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/coliff">@coliff</a></label>
-    <span class="contributions">6 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars1.githubusercontent.com/u/3844166?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/Xipas">@Xipas</a></label>
-    <span class="contributions">5 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars3.githubusercontent.com/u/4741067?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/mreithub">@mreithub</a></label>
-    <span class="contributions">3 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars1.githubusercontent.com/u/229352?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/willwade">@willwade</a></label>
-    <span class="contributions">3 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars0.githubusercontent.com/u/2728948?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/denisvm">@denisvm</a></label>
-    <span class="contributions">2 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars3.githubusercontent.com/u/15112484?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/gpospelov">@gpospelov</a></label>
-    <span class="contributions">2 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars2.githubusercontent.com/u/2247438?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/tanzaho">@tanzaho</a></label>
-    <span class="contributions">2 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars0.githubusercontent.com/u/10724809?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/wikijm">@wikijm</a></label>
-    <span class="contributions">2 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars3.githubusercontent.com/u/1585316?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/lfalin">@lfalin</a></label>
-    <span class="contributions">2 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars0.githubusercontent.com/u/9837719?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/alexvargasbenamburg">@alexvargasbenamburg</a></label>
-    <span class="contributions">1 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars1.githubusercontent.com/u/1641767?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/afs2015">@afs2015</a></label>
-    <span class="contributions">1 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars2.githubusercontent.com/u/4081293?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/arifpedia">@arifpedia</a></label>
-    <span class="contributions">1 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars3.githubusercontent.com/u/25465479?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/MrMoio">@MrMoio</a></label>
-    <span class="contributions">1 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars0.githubusercontent.com/u/16475571?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/ChrisLasar">@ChrisLasar</a></label>
-    <span class="contributions">1 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars3.githubusercontent.com/u/1869724?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/giuliov">@giuliov</a></label>
-    <span class="contributions">1 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars2.githubusercontent.com/u/1167635?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/haitch">@haitch</a></label>
-    <span class="contributions">1 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars0.githubusercontent.com/u/6527489?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/RealOrangeOne">@RealOrangeOne</a></label>
-    <span class="contributions">1 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars0.githubusercontent.com/u/5157847?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/JohnBlood">@JohnBlood</a></label>
-    <span class="contributions">1 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars1.githubusercontent.com/u/1621930?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/kamilchm">@kamilchm</a></label>
-    <span class="contributions">1 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars3.githubusercontent.com/u/1459257?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/lloydbenson">@lloydbenson</a></label>
-    <span class="contributions">1 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars1.githubusercontent.com/u/4517909?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/sykesm">@sykesm</a></label>
-    <span class="contributions">1 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars2.githubusercontent.com/u/8149303?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/654wak654">@654wak654</a></label>
-    <span class="contributions">1 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars0.githubusercontent.com/u/82342?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/ripienaar">@ripienaar</a></label>
-    <span class="contributions">1 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars0.githubusercontent.com/u/43061?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/EnigmaCurry">@EnigmaCurry</a></label>
-    <span class="contributions">1 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars2.githubusercontent.com/u/2090502?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/shelane">@shelane</a></label>
-    <span class="contributions">1 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars2.githubusercontent.com/u/382660?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/tedyoung">@tedyoung</a></label>
-    <span class="contributions">1 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars0.githubusercontent.com/u/2796344?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/Thiht">@Thiht</a></label>
-    <span class="contributions">1 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars0.githubusercontent.com/u/29791463?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/fossabot">@fossabot</a></label>
-    <span class="contributions">1 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars3.githubusercontent.com/u/8029215?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/kamar535">@kamar535</a></label>
-    <span class="contributions">1 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars1.githubusercontent.com/u/11535575?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/nonumeros">@nonumeros</a></label>
-    <span class="contributions">1 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars0.githubusercontent.com/u/15945027?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/pgorod">@pgorod</a></label>
-    <span class="contributions">1 commits</span>
-  </div>
-  
-  <div>
-    <img src="https://avatars2.githubusercontent.com/u/18246032?v=4" class="inline" width="32" height="32" style="height: 32px;height: 32px;margin-bottom:.25em; vertical-align:middle; ">
-    <label><a href="https://github.com/proelbtn">@proelbtn</a></label>
-    <span class="contributions">1 commits</span>
-  </div>
-  
-</div>
-
-<p>Et un grand merci à <a href="https://github.com/vjeantet">@vjeantet</a> pour son travail sur <a href="https://github.com/vjeantet/hugo-theme-docdock">docdock</a>, un fork de <em>hugo-theme-learn</em>. La v2.0.0 du thème est en grande partie inspirée de son travail.</p>
-
-<h2 id="packages-et-librairies">Packages et librairies</h2>
-
-<ul>
-<li><a href="https://knsv.github.io/mermaid">mermaid</a> - géneration de diagrames et graphiques à partir de texte similaire à Markdown</li>
-<li><a href="http://fontawesome.io/">font awesome</a> - Le framework de polices iconiques</li>
-<li><a href="https://jquery.com">jQuery</a> - La plus connue des librairies Javascript</li>
-<li><a href="https://lunrjs.com">lunr</a> - Lunr fournit des fonctions de recherche sans service externe</li>
-<li><a href="https://bevacqua.github.io/horsey/">horsey</a> - Autocomplétion de composants (utiliser pour les suggestions de recherche)</li>
-<li><a href="https://zenorocha.github.io/clipboard.js">clipboard.js</a> - Copier le texte dans le presse-papier</li>
-<li><a href="https://highlightjs.org">highlight.js</a> - Mise en valeur de syntaxes</li>
-<li><a href="https://modernizr.com">modernizr</a> - Une boite à outil Javascript qui permet aux développeurs d&rsquo;utiliser les dernières fonctionnalités de CSS et HTML5, même sur de vieux navigateurs.</li>
-</ul>
-
-<h2 id="outils">Outils</h2>
-
-<ul>
-<li><a href="https://www.netlify.com">Netlify</a> - Déploiement continue et hébergement de cette documentation</li>
-<li><a href="https://gohugo.io/">Hugo</a></li>
-</ul>
 
 
 <footer class=" footline" >
@@ -1307,21 +565,6 @@ padding-left: 4px ;
 
                     
                     
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
                     
 
                     
@@ -1340,314 +583,6 @@ padding-left: 4px ;
                     
                     
 
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-            
-        
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
                     
                         
             
@@ -1699,24 +634,31 @@ padding-left: 4px ;
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1547882852"></script>
-    <script src="/js/perfect-scrollbar.min.js?1547882852"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1547882852"></script>
-    <script src="/js/jquery.sticky.js?1547882852"></script>
-    <script src="/js/featherlight.min.js?1547882852"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1547882852"></script>
-    <script src="/js/highlight.pack.js?1547882852"></script>
+    <script src="/js/clipboard.min.js?1547890604"></script>
+    <script src="/js/perfect-scrollbar.min.js?1547890604"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1547890604"></script>
+    <script src="/js/jquery.sticky.js?1547890604"></script>
+    <script src="/js/featherlight.min.js?1547890604"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1547890604"></script>
+    <script src="/js/highlight.pack.js?1547890604"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1547882852"></script>
-    <script src="/js/learn.js?1547882852"></script>
-    <script src="/js/hugo-learn.js?1547882852"></script>
+    <script src="/js/modernizr.custom.71422.js?1547890604"></script>
+    <script src="/js/learn.js?1547890604"></script>
+    <script src="/js/hugo-learn.js?1547890604"></script>
 
-    <link href="/mermaid/mermaid.css?1547882852" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1547882852"></script>
+    <link href="/mermaid/mermaid.css?1547890604" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1547890604"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
     
+
+
+
+
+<link rel="stylesheet" href="/css/style/atom-one-dark-reasonable.css">
+<script src="/css/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 
   </body>
 </html>

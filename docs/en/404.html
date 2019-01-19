@@ -9,14 +9,16 @@
   <title>404 Page not found</title>
   
    
-    <link href="/css/nucleus.css?1547882852" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1547882852" rel="stylesheet">
-    <link href="/css/hybrid.css?1547882852" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1547882852" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1547882852" rel="stylesheet">
-    <link href="/css/horsey.css?1547882852" rel="stylesheet">
-    <link href="/css/theme.css?1547882852" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1547882852" rel="stylesheet">
+    <link href="/css/nucleus.css?1547890604" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1547890604" rel="stylesheet">
+    <link href="/css/hybrid.css?1547890604" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1547890604" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1547890604" rel="stylesheet">
+    <link href="/css/horsey.css?1547890604" rel="stylesheet">
+    <link href="/css/theme.css?1547890604" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1547890604" rel="stylesheet">
+    
+      <link href="/css/theme-blue.css?1547890604" rel="stylesheet">
     
 <style type="text/css">
     :root #header + #content > #left > #rlblock_left {
@@ -34,6 +36,22 @@
     }
 </style>
  
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    jax: ["input/TeX", "output/HTML-CSS"],
+    extensions: ["tex2jax.js"],
+    tex2jax: {
+        inlineMath: [ ['$', '$'],["\\(","\\)"] ],
+        displayMath: [ ['$$', '$$'], ["\\[","\\]"]],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+
+    "HTML-CSS": {availableFonts: ["TeX"]}
+});
+</script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
  <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/regular.js" integrity="sha384-V+AkgA1cZ+p3DRK63AHCaXvO68V7B5eHoxl7QVN21zftbkFn/sGAIVR7vmQL3Zhp" crossorigin="anonymous"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/fontawesome.js" integrity="sha384-treYPdjUrP4rW5q82SnECO7TPVAz4bpas16yuE9F5o7CeBn2YYw1yr5oC8s8Mf8t" crossorigin="anonymous"></script>
@@ -41,17 +59,28 @@
 <style type="text/css">
      
     body {
-  	font-family:  Microsoft Yahei, Myriad Pro, Palatino Linotype, Garamond, Ubuntu, AR PL UMing HK, Open Sans, 微软雅黑, Simsun, serif;
+  	font-family:  Microsoft Yahei, Open Sans, Myriad Pro, Palatino Linotype, Garamond, Ubuntu, AR PL UMing HK, Open Sans, 微软雅黑, Simsun, serif;
+  	font-size: 16px !important;
 }
 
 code {
-  font-family: Ubuntu Mono, Fira Mono, Lucida Console, Courier New, Monaco, Kaiti, Microsoft Yahei, monospace;
-  font-size: 95%;
+  font-family:  Fira Mono,Ubuntu Mono, Lucida Console, Courier New, Monaco, 楷体, Microsoft Yahei, monospace;
+
+}
+
+pre {
+    padding: 0rem;
+    margin: 0rem 0;
+    border: 0;
+    border-radius: 2px;
+    font-size: 80%;
+    line-height: 150% !important;
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: Microsoft Yahei,黑体,微软雅黑, Microsoft Yahei,  Alegreya, AR PL UMing HK, Open Sans, Arial,sans-serif;
+	font-family:Palatino Linotype,Microsoft Yahei,黑体,Times New Roman,黑体,Microsoft Yahei,微软雅黑, Microsoft Yahei,  Alegreya, AR PL UMing HK, Open Sans, Arial,sans-serif;
 	text-transform:none;
+	font-weight: bold;
 }
 
 #sidebar #shortcuts h3{
@@ -69,10 +98,29 @@ h2, h3, h4, h5, h6 {
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit;
 }
+
+
+
+#body .padding {
+    padding: 0rem 6rem;
+}
+#div .header {
+	padding: 0rem 6rem;
+}
+
+.searchbox {
+    margin-top: 0.1rem;
+}
+#header-wrapper {
+    border-top: 4px solid #9c6fb6;
+    padding: 1.2rem;
+}
+
 h1 {
 	font-size: 2.5rem;
-	line-height: 110% !important;
-  	margin: 2.5rem 0 1.5rem 0;
+	 
+  	margin: 2.5rem 0 2.0rem 0;
+
 }
 
 body #chapter h1 {
@@ -80,26 +128,26 @@ body #chapter h1 {
 }
 
 h2 {
-  font-size: 2rem;
-  line-height: 110% !important;
+  font-size: 1.5rem;
+   
   margin: 2.5rem 0 1.5rem 0;
 }
 
 h3 {
-  font-size: 1.5rem;
-  line-height: 110% !important;
+  font-size: 1.3rem;
+   
   margin: 2rem 0 1rem 0;
 }
 
 h4 {
   font-size: 1.2rem;
-  line-height: 110% !important;
+   
   margin: 1.5rem 0 0.75rem 0;
 }
 
 h5 {
   font-size: 1rem;
-  line-height: 110% !important;
+   
   margin: 1rem 0 0.2rem 0;
 }
 

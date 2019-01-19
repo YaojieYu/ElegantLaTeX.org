@@ -9,12 +9,14 @@ metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 publishDir = "docs"
 
+
 [params]
   description = "Documentation for ElegantLaTeX Templates"
   author = "ElegantLaTeX"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = true
+  themeVariant = "blue"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]

@@ -3,188 +3,75 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/en/cont/pages/</loc>
+    <loc>/en/elegantnote/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="/cn/cont/pages/"
+                href="/cn/elegantnote/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/cont/pages/"
+                href="/en/elegantnote/"
                 />
   </url>
   
   <url>
-    <loc>/en/basics/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/basics/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/basics/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/cont/archetypes/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/cont/archetypes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/cont/archetypes/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/cont/</loc>
+    <loc>/en/elegantbook/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="/cn/cont/"
+                href="/cn/elegantbook/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/cont/"
+                href="/en/elegantbook/"
                 />
   </url>
   
   <url>
-    <loc>/en/basics/requirements/_index.fr/</loc>
+    <loc>/en/elegantpaper/fonts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/elegantpaper/fonts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/elegantpaper/fonts/"
+                />
   </url>
   
   <url>
-    <loc>/en/basics/requirements/</loc>
-  </url>
-  
-  <url>
-    <loc>/en/cont/markdown/</loc>
+    <loc>/en/elegantpaper/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="/cn/cont/markdown/"
+                href="/cn/elegantpaper/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/cont/markdown/"
+                href="/en/elegantpaper/"
                 />
   </url>
   
   <url>
-    <loc>/en/shortcodes/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+    <loc>/en/elegantpaper/options/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="/cn/shortcodes/"
+                href="/cn/elegantpaper/options/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/shortcodes/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/basics/installation/</loc>
-  </url>
-  
-  <url>
-    <loc>/en/basics/installation/_index.fr/</loc>
-  </url>
-  
-  <url>
-    <loc>/en/basics/configuration/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/basics/configuration/_index.fr/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/cont/menushortcuts/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/cont/menushortcuts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/cont/menushortcuts/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/basics/style-customization/_index.fr/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/basics/style-customization/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/cont/icons/</loc>
-  </url>
-  
-  <url>
-    <loc>/en/cont/i18n/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/cont/i18n/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/cont/i18n/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/shortcodes/attachments/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/shortcodes/attachments/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/shortcodes/attachments/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/shortcodes/button/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/shortcodes/button/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/shortcodes/button/"
+                href="/en/elegantpaper/options/"
                 />
   </url>
   
@@ -204,20 +91,6 @@
   </url>
   
   <url>
-    <loc>/en/shortcodes/children/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/shortcodes/children/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/shortcodes/children/"
-                />
-  </url>
-  
-  <url>
     <loc>/en/credits/</loc>
     <xhtml:link
                 rel="alternate"
@@ -233,7 +106,6 @@
   
   <url>
     <loc>/en/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
@@ -243,76 +115,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/shortcodes/expand/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/shortcodes/expand/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/shortcodes/expand/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/shortcodes/mermaid/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/shortcodes/mermaid/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/shortcodes/mermaid/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/shortcodes/notice/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/shortcodes/notice/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/shortcodes/notice/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/showcase/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/vitrine/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/showcase/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/shortcodes/siteparam/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/shortcodes/siteparam/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/shortcodes/siteparam/"
                 />
   </url>
   
@@ -328,146 +130,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/shortcodes/children/children-1/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/shortcodes/children/children-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/shortcodes/children/children-1/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/shortcodes/children/children-1/children-1-1/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/shortcodes/children/children-1/children-1-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/shortcodes/children/children-1/children-1-1/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/shortcodes/children/children-1/children-1-1/children-1-1-1/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/shortcodes/children/children-1/children-1-1/children-1-1-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/shortcodes/children/children-1/children-1-1/children-1-1-1/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/shortcodes/children/children-2/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/shortcodes/children/children-2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/shortcodes/children/children-2/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/shortcodes/children/children-3/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/shortcodes/children/children-3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/shortcodes/children/children-3/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/shortcodes/children/children-4/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/shortcodes/children/children-4/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/shortcodes/children/children-4/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/shortcodes/children/test/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/shortcodes/children/test/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/shortcodes/children/test/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/shortcodes/children/children-2/test3/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/shortcodes/children/children-2/test3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/shortcodes/children/children-2/test3/"
                 />
   </url>
   
