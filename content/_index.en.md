@@ -25,8 +25,8 @@ We have 4 members, they are
 
 + [Ethan Deng/ddswhu](https://github.com/orgs/ElegantLaTeX/people/EthanDeng);
 + [Liam Huang](https://github.com/orgs/ElegantLaTeX/people/Liam0205);
-+ [peggy2006xzyz](https://github.com/orgs/ElegantLaTeX/people/peggy2006xzyz);
-+ [Dishy Qming SU](https://github.com/orgs/ElegantLaTeX/people/franklinsu).
++ [Peggy Yao](https://github.com/orgs/ElegantLaTeX/people/peggy2006xzyz);
++ [Dishy Qming Su](https://github.com/orgs/ElegantLaTeX/people/franklinsu).
 
 If you have any questions, you can create issues under corresponding template. For ElegantBook, it's [https://github.com/ElegantLaTeX/ElegantBook/issues](https://github.com/ElegantLaTeX/ElegantBook/issues).  Our email is also welcome: elegantlatex2e@gmail.com.
 
