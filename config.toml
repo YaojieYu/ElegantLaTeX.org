@@ -39,6 +39,12 @@ url = "showcase"
 weight = 11
 
 [[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bookmark'></i> Installation"
+identifier = "hugodoc"
+url = "installation"
+weight = 15
+
+[[Languages.en.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bookmark'></i> Hugo"
 identifier = "hugodoc"
 url = "https://gohugo.io/"
@@ -61,6 +67,11 @@ weight = 10
 name = "<i class='fas fa-fw fa-camera'></i> 截图"
 url = "/showcase"
 weight = 11
+
+[[Languages.cn.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-camera'></i> 安装"
+url = "/installation"
+weight = 15
 
 [[Languages.cn.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bookmark'></i> 文档"

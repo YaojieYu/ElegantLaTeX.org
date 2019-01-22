@@ -20,6 +20,15 @@
     </item>
     
     <item>
+      <title></title>
+      <link>/en/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Attachments</title>
       <link>/en/elegantpaper/options/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -30,10 +39,10 @@
     
     <item>
       <title>Credits</title>
-      <link>/en/credits/</link>
+      <link>/en/installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/credits/</guid>
+      <guid>/en/installation/</guid>
       <description>Contributors Thanks to them  for making Open Source Software a better place !</description>
     </item>
     

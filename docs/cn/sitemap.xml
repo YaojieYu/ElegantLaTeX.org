@@ -89,20 +89,6 @@
   </url>
   
   <url>
-    <loc>/cn/credits/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/credits/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/credits/"
-                />
-  </url>
-  
-  <url>
     <loc>/cn/</loc>
     <xhtml:link
                 rel="alternate"
@@ -128,6 +114,20 @@
                 rel="alternate"
                 hreflang="cn"
                 href="/cn/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/cn/installation/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/installation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/installation/"
                 />
   </url>
   

@@ -42,18 +42,11 @@
 	"content": ""
 },
 {
-	"uri": "/cn/credits/",
-	"title": "Crédits",
-	"tags": [],
-	"description": "",
-	"content": " Contributeurs Merci à eux  de rendre le monde Open Source meilleur !\n"
-},
-{
 	"uri": "/cn/",
 	"title": "ElegantLaTeX",
 	"tags": [],
 	"description": "",
-	"content": " ElegantLaTeX 系列模板 我们 ElegantLaTeX 创立于 2013 年，致力于设计优美的 LaTeX 模板，方便用户使用。目前有 3 套模板：\n\n ElegantNote：笔记模板； ElegantBook：书籍模板； ElegantPaper：工作论文模板。  相关链接  主页: https://elegantlatex.org/ Github: https://github.com/ElegantLaTeX CTAN:  https://ctan.org/pkg/elegantpaper  微博: https://weibo.com/elegantlatex  成员 目前我们有 4 名成员：\n Ethan Deng； Liam Huang； Peggy Yao； Dishy Qming Su。  如果你有其他问题，你可以在对应模板下的 issues 留言，比如 ElegantBook, 可以在 https://github.com/ElegantLaTeX/ElegantBook/issues 留下你的问题。我们也欢迎你给我们发邮件，我们的邮箱是 elegantlatex2e@gmail.com。\n"
+	"content": " ElegantLaTeX \nElegantLaTeX 成立于 2013 年，由 Ethan Deng 和 Liam Huang 共同发起。最早的模板为 ElegantNote。写这个模板的目的是简化使用 LaTeX 记录笔记的工作。后来几经改版和沉沦，ElegantNote 已经重新设计，ElegantBook 在原 ElegantNote 的基础上更加完善，在去年也推出了第三个模板：ElegantPaper。模板在更新，但我们的宗旨不变：设计出更加美观的 LaTeX 模板！\nElegant LaTeX, Elegant Life! 优雅地写作，优雅的生活！\n系列模板 ElegantLaTeX 目前有 3 套模板：\n ElegantNote：笔记模板； ElegantBook：书籍模板； ElegantPaper：工作论文模板。  相关链接  主页: https://elegantlatex.org/ Github: https://github.com/ElegantLaTeX CTAN:  ElegantNote：待传； ElegantBook：待传； ElegantPaper：版本 0.02。  微博: https://weibo.com/elegantlatex 邮箱: elegantlatex2e@gmail.com 公众号：ElegantLaTeX  如果您对 ElegantLaTeX 项目组有兴趣或者有任何问题欢迎联系我们。\n"
 },
 {
 	"uri": "/cn/tags/",
@@ -61,4 +54,11 @@
 	"tags": [],
 	"description": "",
 	"content": ""
+},
+{
+	"uri": "/cn/installation/",
+	"title": "安装方法",
+	"tags": [],
+	"description": "",
+	"content": " 本节以 TeX Live 2018 为例，介绍如何通过命令行或者包管理工具安装模板（包）。\n命令行方式安装 以管理员权限打开命令行，在命令行输入下面命令即可安装 elegantpaper 模板。\ntlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet tlmgr install elegantpaper  升级和卸载分别使用\ntlmgr update elegantpaper tlmgr uninstall elegantpaper  包管理工具方式安装 在 Windows 里面搜索 tlmgr，找到 TeX Live Manager 并打开：\n\n然后通过菜单 tlmgr 选择 Load standard net repository: http://mirror.ctan.org/systems/texlive/tlnet：\n\n然后在匹配框内输入包的名字，比如 elegantpaper，在搜索结果中勾选需要安装/更新/卸载的包：\n\n"
 }]

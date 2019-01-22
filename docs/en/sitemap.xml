@@ -62,6 +62,20 @@
   </url>
   
   <url>
+    <loc>/en/installation/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/installation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/installation/"
+                />
+  </url>
+  
+  <url>
     <loc>/en/elegantpaper/options/</loc>
     <xhtml:link
                 rel="alternate"
@@ -91,16 +105,16 @@
   </url>
   
   <url>
-    <loc>/en/credits/</loc>
+    <loc>/en/installation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="/cn/credits/"
+                href="/cn/installation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/credits/"
+                href="/en/installation/"
                 />
   </url>
   

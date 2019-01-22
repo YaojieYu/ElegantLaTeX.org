@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
-    <title>Categories :: ElegantLaTeX 系列模板文档说明</title>
+    <title>安装方法 :: ElegantLaTeX 系列模板文档说明</title>
 
     
     <link href="/css/nucleus.css?1548166551" rel="stylesheet">
@@ -170,7 +170,7 @@ figcaption h4 {
 </style>
 
   </head>
-  <body class="" data-url="/cn/categories/">
+  <body class="" data-url="/cn/installation/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -390,7 +390,7 @@ figcaption h4 {
                   
                     
                     
-                      <option id="en" value="/en/categories/">English</option>
+                      <option id="en" value="/en/installation/">English</option>
                     
                   
               
@@ -404,7 +404,7 @@ figcaption h4 {
                   
                     
                     
-                      <option id="cn" value="/cn/categories/" selected>Chinese</option>
+                      <option id="cn" value="/cn/installation/" selected>Chinese</option>
                     
                   
               
@@ -463,7 +463,13 @@ figcaption h4 {
                     
           
           
-            Categories
+            
+            
+          
+          
+            <a href='/cn/'>ElegantLaTeX</a> > 安装方法
+          
+         
           
         
                  
@@ -472,7 +478,15 @@ figcaption h4 {
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#命令行方式安装">命令行方式安装</a></li>
+<li><a href="#包管理工具方式安装">包管理工具方式安装</a></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -484,7 +498,7 @@ figcaption h4 {
         
         <div id="body-inner">
           
-            <h1>Categories</h1>
+            <h1>安装方法</h1>
           
 
         
@@ -492,9 +506,41 @@ figcaption h4 {
 
 
 
+<p>本节以 TeX Live 2018 为例，介绍如何通过命令行或者包管理工具安装模板（包）。</p>
+
+<h2 id="命令行方式安装">命令行方式安装</h2>
+
+<p>以管理员权限打开命令行，在命令行输入下面命令即可安装 elegantpaper 模板。</p>
+
+<pre><code class="language-shell">tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
+tlmgr install elegantpaper
+</code></pre>
+
+<p>升级和卸载分别使用</p>
+
+<pre><code class="language-shell">tlmgr update elegantpaper
+tlmgr uninstall elegantpaper 
+</code></pre>
+
+<h2 id="包管理工具方式安装">包管理工具方式安装</h2>
+
+<p>在 Windows 里面搜索 tlmgr，找到 TeX Live Manager 并打开：</p>
+
+<p><center><img src="/image/tlmgr.png" width="600"></center></p>
+
+<p>然后通过菜单 tlmgr 选择 <strong>Load standard net repository: <a href="http://mirror.ctan.org/systems/texlive/tlnet">http://mirror.ctan.org/systems/texlive/tlnet</a></strong>：</p>
+
+<p><center><img src="/image/tlmgr-1.png" width="600"></center></p>
+
+<p>然后在<strong>匹配</strong>框内输入包的名字，比如 <code>elegantpaper</code>，在搜索结果中勾选需要安装/更新/卸载的包：</p>
+
+<p><center><img src="/image/tlmgr-2.png" width="600"></center></p>
+
+
 <footer class=" footline" >
 	
 </footer>
+
 
         
         </div> 
@@ -648,3 +694,4 @@ figcaption h4 {
 
   </body>
 </html>
+
