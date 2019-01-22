@@ -26,15 +26,6 @@ Now ElegantLaTeX consists of three templates.
 - Email: elegantlatex2e@gmail.com
 - Wechat：ElegantLaTeX
 
-## Membership
-
-We have 4 members
-
-+ [Ethan Deng/ddswhu](https://github.com/orgs/ElegantLaTeX/people/EthanDeng);
-+ [Liam Huang](https://github.com/orgs/ElegantLaTeX/people/Liam0205);
-+ [Peggy Yao](https://github.com/orgs/ElegantLaTeX/people/peggy2006xzyz);
-+ [Dishy Qming SU](https://github.com/orgs/ElegantLaTeX/people/franklinsu).
-
 If you have any questions, you can create issues under corresponding template or email us.
 
 ----
@@ -69,13 +60,5 @@ ElegantLaTeX 目前有 3 套模板：
 - 邮箱: elegantlatex2e@gmail.com
 - 公众号：ElegantLaTeX
 
-## 成员
-
-目前我们有 4 名成员： 
-
-+ [Ethan Deng/ddswhu](https://github.com/orgs/ElegantLaTeX/people/EthanDeng)；
-+ [Liam Huang](https://github.com/orgs/ElegantLaTeX/people/Liam0205)；
-+ [Peggy Yao](https://github.com/orgs/ElegantLaTeX/people/peggy2006xzyz)；
-+ [Dishy Qming SU](https://github.com/orgs/ElegantLaTeX/people/franklinsu)。
 
 如果您对 ElegantLaTeX 项目组有兴趣或者有任何问题欢迎联系我们。 
