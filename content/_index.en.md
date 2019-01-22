@@ -24,7 +24,7 @@ Now ElegantLaTeX consists of three templates.
 - Github: https://github.com/ElegantLaTeX
 - CTAN: 
     - [ElegantNote](https://ctan.org/pkg/elegantnote): tbu;
-    - [ElegantBook](https://ctan.org/pkg/elegantboo): tbu;
+    - [ElegantBook](https://ctan.org/pkg/elegantbook): tbu;
     - [ElegantPaper](https://ctan.org/pkg/elegantpaper): ver 0.02.
 - Weibo: https://weibo.com/elegantlatex
 - Email: elegantlatex2e@gmail.com

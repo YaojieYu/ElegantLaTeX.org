@@ -62,20 +62,6 @@
   </url>
   
   <url>
-    <loc>/en/installation/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/installation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/installation/"
-                />
-  </url>
-  
-  <url>
     <loc>/en/elegantpaper/options/</loc>
     <xhtml:link
                 rel="alternate"

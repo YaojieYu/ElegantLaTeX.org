@@ -20,7 +20,7 @@ Now ElegantLaTeX consists of three templates.
 - Github: https://github.com/ElegantLaTeX
 - CTAN: 
     - [ElegantNote](https://ctan.org/pkg/elegantnote): tbu;
-    - [ElegantBook](https://ctan.org/pkg/elegantboo): tbu;
+    - [ElegantBook](https://ctan.org/pkg/elegantbook): tbu;
     - [ElegantPaper](https://ctan.org/pkg/elegantpaper): ver 0.02.
 - Weibo: https://weibo.com/elegantlatex
 - Email: elegantlatex2e@gmail.com
@@ -54,7 +54,7 @@ ElegantLaTeX 目前有 3 套模板：
 - Github: https://github.com/ElegantLaTeX
 - CTAN: 
     - [ElegantNote](https://ctan.org/pkg/elegantnote)：待传；
-    - [ElegantBook](https://ctan.org/pkg/elegantboo)：待传；
+    - [ElegantBook](https://ctan.org/pkg/elegantbook)：待传；
     - [ElegantPaper](https://ctan.org/pkg/elegantpaper)：版本 0.02。
 - 微博: https://weibo.com/elegantlatex
 - 邮箱: elegantlatex2e@gmail.com
