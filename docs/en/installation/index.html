@@ -9,22 +9,22 @@
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
-    <title>Credits :: Documentation for ElegantLaTeX Templates</title>
+    <title>Installation :: Documentation for ElegantLaTeX Templates</title>
 
     
-    <link href="/css/nucleus.css?1548168775" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1548168775" rel="stylesheet">
-    <link href="/css/hybrid.css?1548168775" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1548168775" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1548168775" rel="stylesheet">
-    <link href="/css/auto-complete.css?1548168775" rel="stylesheet">
-    <link href="/css/theme.css?1548168775" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1548168775" rel="stylesheet">
+    <link href="/css/nucleus.css?1548210739" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1548210739" rel="stylesheet">
+    <link href="/css/hybrid.css?1548210739" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1548210739" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1548210739" rel="stylesheet">
+    <link href="/css/auto-complete.css?1548210739" rel="stylesheet">
+    <link href="/css/theme.css?1548210739" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1548210739" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1548168775" rel="stylesheet">
+      <link href="/css/theme-blue.css?1548210739" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1548168775"></script>
+    <script src="/js/jquery-2.x.min.js?1548210739"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -206,14 +206,14 @@ figcaption h4 {
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1548168775"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1548168775"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1548210739"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1548210739"></script>
 <script type="text/javascript">
     
-        var baseurl = "\/\/en";
+        var baseurl = "https:\/\/elegantlatex.org\/\/en";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1548168775"></script>
+<script type="text/javascript" src="/js/search.js?1548210739"></script>
 
     
   </div>
@@ -353,15 +353,19 @@ figcaption h4 {
         <ul>
           
               <li> 
+                  <a class="padding" href="https://elegantlatex.org/en/installation"><i class='fas fa-fw fa-user-cog'></i> Installation</a>
+              </li>
+          
+              <li> 
                   <a class="padding" href="https://github.com/ElegantLaTeX"><i class='fab fa-fw fa-github'></i> Github</a>
               </li>
           
               <li> 
-                  <a class="padding" href="/en/showcase"><i class='fas fa-fw fa-camera'></i> Showcases</a>
+                  <a class="padding" href="https://gohugo.io/"><i class='fab fa-fw fa-weibo'></i> Weibo</a>
               </li>
           
               <li> 
-                  <a class="padding" href="https://gohugo.io/"><i class='fas fa-fw fa-bookmark'></i> Hugo</a>
+                  <a class="padding" href="https://elegantlatex.org/en/showcase"><i class='fab fa-fw fa-weixin'></i> WeChat</a>
               </li>
           
         </ul>
@@ -400,7 +404,7 @@ figcaption h4 {
                   
                     
                     
-                      <option id="cn" value="/cn/installation/">Chinese</option>
+                      <option id="cn" value="/cn/installation/">中文</option>
                     
                   
               
@@ -461,7 +465,7 @@ figcaption h4 {
             
           
           
-            <a href='/en/'>ElegantLaTeX</a> > Credits
+            <a href='/en/'>ElegantLaTeX</a> > Installation
           
          
           
@@ -477,7 +481,7 @@ figcaption h4 {
         
         <div id="body-inner">
           
-            <h1>Credits</h1>
+            <h1>Installation</h1>
           
 
         
@@ -485,9 +489,37 @@ figcaption h4 {
 
 
 
-<h2 id="contributors">Contributors</h2>
+<p>In this section, we will introduce the installation methods through cmd line or package manager of TeX Live 2018.</p>
 
-<p>Thanks to them <i class="fas fa-heart"></i> for making Open Source Software a better place !</p>
+<h2 id="cmd-line-method">Cmd Line Method</h2>
+
+<p>Run command line as administrator, the installation commands is</p>
+
+<pre><code class="language-shell">tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
+tlmgr install elegantpaper
+</code></pre>
+
+<p>If you want to update or uninstall package, you can use</p>
+
+<pre><code class="language-shell">tlmgr update elegantpaper
+tlmgr uninstall elegantpaper 
+</code></pre>
+
+<h2 id="package-mananger-method">Package Mananger Method</h2>
+
+<p>Search tlmgr in windows, and open TeX Live Manager,</p>
+
+<p><center><img src="/image/tlmgr.png" width="600"></center></p>
+
+<p>click tlmgr and choose <strong>Load standard net repository: <a href="http://mirror.ctan.org/systems/texlive/tlnet">http://mirror.ctan.org/systems/texlive/tlnet</a></strong> ：</p>
+
+<p><center><img src="/image/tlmgr-1.png" width="600"></center></p>
+
+<p>type the package name in the blank, and select the package you want to install/update/uninstall and click the action you wish.</p>
+
+<p><center><img src="/image/tlmgr-2.png" width="600"></center></p>
+
+<p>Complete.</p>
 
 
 <footer class=" footline" >
@@ -619,20 +651,20 @@ figcaption h4 {
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1548168775"></script>
-    <script src="/js/perfect-scrollbar.min.js?1548168775"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1548168775"></script>
-    <script src="/js/jquery.sticky.js?1548168775"></script>
-    <script src="/js/featherlight.min.js?1548168775"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1548168775"></script>
-    <script src="/js/highlight.pack.js?1548168775"></script>
+    <script src="/js/clipboard.min.js?1548210739"></script>
+    <script src="/js/perfect-scrollbar.min.js?1548210739"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1548210739"></script>
+    <script src="/js/jquery.sticky.js?1548210739"></script>
+    <script src="/js/featherlight.min.js?1548210739"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1548210739"></script>
+    <script src="/js/highlight.pack.js?1548210739"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1548168775"></script>
-    <script src="/js/learn.js?1548168775"></script>
-    <script src="/js/hugo-learn.js?1548168775"></script>
+    <script src="/js/modernizr.custom.71422.js?1548210739"></script>
+    <script src="/js/learn.js?1548210739"></script>
+    <script src="/js/hugo-learn.js?1548210739"></script>
 
-    <link href="/mermaid/mermaid.css?1548168775" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1548168775"></script>
+    <link href="/mermaid/mermaid.css?1548210739" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1548210739"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

@@ -1,64 +1,64 @@
 [
 {
-	"uri": "/cn/elegantpaper/options/",
+	"uri": "https://elegantlatex.org/cn/elegantpaper/options/",
 	"title": "模板选项",
 	"tags": [],
 	"description": "本模板的各种选项",
 	"content": " 基础选项 此模板是基于 LaTeX 的标准文档类设计，也即意味着你可以在在文类选项使用文档（article）类型的选项，比如 a4paper, 12pt 等等。本模板支持 PDFLaTeX 和 XeLaTeX 两种编译方式。\n自定义选项 我在这个模板中定义了一个语言选项 lang ，可以选择\n 英文模式 lang=en （默认）; 中文模式 lang=cn  当选择中文模式时，图表的标题引导词以及参考文献，定理引导词等信息会变成中文。你可以通过下面两种方式来选择语言模式：\n\\documentclass[lang=cn]{elegantpaper} \\documentclass{cn}{elegantpaper} % 两者皆可  "
 },
 {
-	"uri": "/cn/elegantpaper/fonts/",
+	"uri": "https://elegantlatex.org/cn/elegantpaper/fonts/",
 	"title": "字体设置",
 	"tags": [],
 	"description": "本模板的字体设置",
 	"content": " 选择 PDFLaTeX 编译 如果你使用 PDFLaTeX 编译，默认的 Computer Modern 字体被换成了 newtx 系列字体，默认的字体字号是 11 pt。关于字体设置的宏包主要用到了：\n newtxtext 用于文档正文字体，类似于 Times New Roman 字体。 newtxmath 用于数学字体，搭配 newtx 非常合适，类似于过时的 times 宏包的效果。 FiraMono 用于打字机字体。 ctex 用于中文字体设置，并使用了 scheme=plain 选项。  选择 XeLaTeX 编译 如果你选择 XeLaTeX 编译的话，那么设置字体的宏包为 fontspec 和 xeCJK 。由于模板中使用的字体是 Windows 中的字体，所以如果你使用其他操作系统，比如 Linux 或者 Mac OS，那么你需要把所用字体替换为你系统中的字体。设置字体的命令：\n\\RequirePackage{fontenc} \\RequirePackage[no-math]{fontspec} \\setmainfont{Times New Roman} %\\setmainfont{Times New Roman}[NFSSFamily=ntxtlf] \\setsansfont{Arial} %\\setmonofont[Scale=0.9]{Courier New} \\RequirePackage{xeCJK} \\RequirePackage{xunicode} \\setCJKmainfont[BoldFont={SimHei},ItalicFont={KaiTi}]{SimSun} \\setCJKsansfont[BoldFont={SimHei},ItalicFont={KaiTi}]{KaiTi} \\setCJKmonofont[BoldFont={SimHei},ItalicFont={KaiTi},Scale=0.9]{Microsoft YaHei} \\RequirePackage{newtxmath} \\DeclareSymbolFont{operators}{OT1}{ntxtlf}{m}{n} \\SetSymbolFont{operators}{bold}{OT1}{ntxtlf}{b}{n}  1.2.3 其他设置 这几个包由于都是一个系列的，字体搭配起来非常合适，字体宽度非常契合！唯独数学字体中的大型运算符，比如求和符号和积分符号不是很好看，为此，我把它们又改回了原先的字体效果。公式 (1) 展示了最终的数学字体的效果。\n$$ (a + 3b)^n =\\sum{k=0}^n C{n}^ka^{n-k}(3b)^k $$ ​ 我把行距设定为 1.3，并且使用了 microtype 宏包调整字体的间距，为了去除字体字号，字形警告信息，我使用了 type1cm 宏包。\n"
 },
 {
-	"uri": "/cn/elegantnote/",
+	"uri": "https://elegantlatex.org/cn/elegantnote/",
 	"title": "ElegantNote",
 	"tags": [],
 	"description": "",
 	"content": " 第一部分 基础功能 在这部分，我们将介绍如何安装 ElegantLaTeX 以及基本的使用方法。\n"
 },
 {
-	"uri": "/cn/elegantbook/",
+	"uri": "https://elegantlatex.org/cn/elegantbook/",
 	"title": "ElegantBook",
 	"tags": [],
 	"description": "",
 	"content": " Chapitre 2 ElegantBook 本节将介绍 ElegantBook 的基本使用以及自定义设置。\n"
 },
 {
-	"uri": "/cn/elegantpaper/",
+	"uri": "https://elegantlatex.org/cn/elegantpaper/",
 	"title": "ElegantPaper",
 	"tags": [],
 	"description": "",
 	"content": "本文为 ElegantPaper 的说明文档（中文）。此模板基于 LaTeX 的 article 类，专为工作论文写作而设计。设计这个模板的初衷是让作者不用关心工作论文的格式，专心写作，从而有更加舒适，简便的写作体验。如果你有其他问题、建议或者报告 bug，可以在 ElegantPaper/issues 留言。如果你想了解更多由 ElegantLaTeX 项目组设计的模板，请访问 https://github.com/ElegantLaTeX/。\n"
 },
 {
-	"uri": "/cn/categories/",
+	"uri": "https://elegantlatex.org/cn/categories/",
 	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/cn/",
+	"uri": "https://elegantlatex.org/cn/",
 	"title": "ElegantLaTeX",
 	"tags": [],
 	"description": "",
 	"content": " ElegantLaTeX \nElegantLaTeX 成立于 2013 年，由 Ethan Deng 和 Liam Huang 共同发起。最早的模板为 ElegantNote。写这个模板的目的是简化使用 LaTeX 记录笔记的工作。后来几经改版和沉沦，ElegantNote 已经重新设计，ElegantBook 在原 ElegantNote 的基础上更加完善，在去年也推出了第三个模板：ElegantPaper。模板在更新，但我们的宗旨不变：设计出更加美观的 LaTeX 模板！\nElegant LaTeX, Elegant Life! 优雅地写作，优雅的生活！\n系列模板 ElegantLaTeX 目前有 3 套模板：\n ElegantNote：笔记模板； ElegantBook：书籍模板； ElegantPaper：工作论文模板。  相关链接  主页: https://elegantlatex.org/ Github: https://github.com/ElegantLaTeX CTAN:  ElegantNote：待传； ElegantBook：待传； ElegantPaper：版本 0.02。  微博: https://weibo.com/elegantlatex 邮箱: elegantlatex2e@gmail.com 公众号：ElegantLaTeX  如果您对 ElegantLaTeX 项目组有兴趣或者有任何问题欢迎联系我们。\n"
 },
 {
-	"uri": "/cn/tags/",
+	"uri": "https://elegantlatex.org/cn/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/cn/installation/",
+	"uri": "https://elegantlatex.org/cn/installation/",
 	"title": "安装方法",
 	"tags": [],
 	"description": "",
-	"content": " 本节以 TeX Live 2018 为例，介绍如何通过命令行或者包管理工具安装模板（包）。\n命令行方式安装 以管理员权限打开命令行，在命令行输入下面命令即可安装 elegantpaper 模板。\ntlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet tlmgr install elegantpaper  升级和卸载分别使用\ntlmgr update elegantpaper tlmgr uninstall elegantpaper  包管理工具方式安装 在 Windows 里面搜索 tlmgr，找到 TeX Live Manager 并打开：\n\n然后通过菜单 tlmgr 选择 Load standard net repository: http://mirror.ctan.org/systems/texlive/tlnet：\n\n然后在匹配框内输入包的名字，比如 elegantpaper，在搜索结果中勾选需要安装/更新/卸载的包：\n\n"
+	"content": " 本节以 TeX Live 2018 为例，介绍如何通过命令行或者包管理工具安装模板（包）。\n命令行方式安装 以管理员权限打开命令行，在命令行输入下面命令即可安装 elegantpaper 模板。\ntlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet tlmgr install elegantpaper  升级和卸载分别使用\ntlmgr update elegantpaper tlmgr uninstall elegantpaper  包管理工具方式安装 在 Windows 里面搜索 tlmgr，找到 TeX Live Manager 并打开：\n\n然后通过菜单 tlmgr 选择 Load standard net repository: http://mirror.ctan.org/systems/texlive/tlnet ：\n\n然后在匹配框内输入包的名字，比如 elegantpaper，在搜索结果中勾选需要安装/更新/卸载的包：\n\n"
 }]

@@ -2,39 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ElegantLaTeX on Documentation for ElegantLaTeX Templates</title>
-    <link>/en/</link>
+    <link>https://elegantlatex.org/en/</link>
     <description>Recent content in ElegantLaTeX on Documentation for ElegantLaTeX Templates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
-	<atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://elegantlatex.org/en/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fonts</title>
-      <link>/en/elegantpaper/fonts/</link>
+      <link>https://elegantlatex.org/en/elegantpaper/fonts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/elegantpaper/fonts/</guid>
+      <guid>https://elegantlatex.org/en/elegantpaper/fonts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Attachments</title>
-      <link>/en/elegantpaper/options/</link>
+      <link>https://elegantlatex.org/en/elegantpaper/options/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/elegantpaper/options/</guid>
+      <guid>https://elegantlatex.org/en/elegantpaper/options/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Credits</title>
-      <link>/en/installation/</link>
+      <title>Installation</title>
+      <link>https://elegantlatex.org/en/installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/installation/</guid>
-      <description>Contributors Thanks to them  for making Open Source Software a better place !</description>
+      <guid>https://elegantlatex.org/en/installation/</guid>
+      <description>In this section, we will introduce the installation methods through cmd line or package manager of TeX Live 2018.
+Cmd Line Method Run command line as administrator, the installation commands is
+tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet tlmgr install elegantpaper  If you want to update or uninstall package, you can use
+tlmgr update elegantpaper tlmgr uninstall elegantpaper  Package Mananger Method Search tlmgr in windows, and open TeX Live Manager,</description>
     </item>
     
   </channel>

@@ -3,133 +3,133 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/en/elegantnote/</loc>
+    <loc>https://elegantlatex.org/en/elegantnote/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="/cn/elegantnote/"
+                href="https://elegantlatex.org/cn/elegantnote/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/elegantnote/"
+                href="https://elegantlatex.org/en/elegantnote/"
                 />
   </url>
   
   <url>
-    <loc>/en/elegantbook/</loc>
+    <loc>https://elegantlatex.org/en/elegantbook/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="/cn/elegantbook/"
+                href="https://elegantlatex.org/cn/elegantbook/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/elegantbook/"
+                href="https://elegantlatex.org/en/elegantbook/"
                 />
   </url>
   
   <url>
-    <loc>/en/elegantpaper/fonts/</loc>
+    <loc>https://elegantlatex.org/en/elegantpaper/fonts/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="/cn/elegantpaper/fonts/"
+                href="https://elegantlatex.org/cn/elegantpaper/fonts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/elegantpaper/fonts/"
+                href="https://elegantlatex.org/en/elegantpaper/fonts/"
                 />
   </url>
   
   <url>
-    <loc>/en/elegantpaper/</loc>
+    <loc>https://elegantlatex.org/en/elegantpaper/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="/cn/elegantpaper/"
+                href="https://elegantlatex.org/cn/elegantpaper/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/elegantpaper/"
+                href="https://elegantlatex.org/en/elegantpaper/"
                 />
   </url>
   
   <url>
-    <loc>/en/elegantpaper/options/</loc>
+    <loc>https://elegantlatex.org/en/elegantpaper/options/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="/cn/elegantpaper/options/"
+                href="https://elegantlatex.org/cn/elegantpaper/options/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/elegantpaper/options/"
+                href="https://elegantlatex.org/en/elegantpaper/options/"
                 />
   </url>
   
   <url>
-    <loc>/en/categories/</loc>
+    <loc>https://elegantlatex.org/en/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="/cn/categories/"
+                href="https://elegantlatex.org/cn/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/categories/"
+                href="https://elegantlatex.org/en/categories/"
                 />
   </url>
   
   <url>
-    <loc>/en/installation/</loc>
+    <loc>https://elegantlatex.org/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="/cn/installation/"
+                href="https://elegantlatex.org/cn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/installation/"
+                href="https://elegantlatex.org/en/"
                 />
   </url>
   
   <url>
-    <loc>/en/</loc>
+    <loc>https://elegantlatex.org/en/installation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="/cn/"
+                href="https://elegantlatex.org/cn/installation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/"
+                href="https://elegantlatex.org/en/installation/"
                 />
   </url>
   
   <url>
-    <loc>/en/tags/</loc>
+    <loc>https://elegantlatex.org/en/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="/cn/tags/"
+                href="https://elegantlatex.org/cn/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/"
+                href="https://elegantlatex.org/en/tags/"
                 />
   </url>
   

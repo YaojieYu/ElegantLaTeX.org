@@ -1,62 +1,62 @@
 [
 {
-	"uri": "/en/elegantnote/",
+	"uri": "https://elegantlatex.org/en/elegantnote/",
 	"title": "ElegantNote",
 	"tags": [],
 	"description": "",
 	"content": "Hugo uses Markdown for its simple content format. However, there are a lot of things that Markdown doesn’t support well. You could use pure HTML to expand possibilities.\nBut this happens to be a bad idea. Everyone uses Markdown because it\u0026rsquo;s pure and simple to read even non-rendered. You should avoid HTML to keep it as simple as possible.\nTo avoid this limitations, Hugo created shortcodes. A shortcode is a simple snippet inside a page.\nHugo-theme-learn provides multiple shortcodes on top of existing ones.\n"
 },
 {
-	"uri": "/en/elegantbook/",
+	"uri": "https://elegantlatex.org/en/elegantbook/",
 	"title": "ElegantBook",
 	"tags": [],
 	"description": "",
 	"content": "Hugo uses Markdown for its simple content format. However, there are a lot of things that Markdown doesn’t support well. You could use pure HTML to expand possibilities.\nBut this happens to be a bad idea. Everyone uses Markdown because it\u0026rsquo;s pure and simple to read even non-rendered. You should avoid HTML to keep it as simple as possible.\nTo avoid this limitations, Hugo created shortcodes. A shortcode is a simple snippet inside a page.\nHugo-theme-learn provides multiple shortcodes on top of existing ones.\n"
 },
 {
-	"uri": "/en/elegantpaper/fonts/",
+	"uri": "https://elegantlatex.org/en/elegantpaper/fonts/",
 	"title": "Fonts",
 	"tags": [],
 	"description": "Font Settings",
 	"content": ""
 },
 {
-	"uri": "/en/elegantpaper/",
+	"uri": "https://elegantlatex.org/en/elegantpaper/",
 	"title": "ElegantPaper",
 	"tags": [],
 	"description": "",
 	"content": "Hugo uses Markdown for its simple content format. However, there are a lot of things that Markdown doesn’t support well. You could use pure HTML to expand possibilities.\nBut this happens to be a bad idea. Everyone uses Markdown because it\u0026rsquo;s pure and simple to read even non-rendered. You should avoid HTML to keep it as simple as possible.\nTo avoid this limitations, Hugo created shortcodes. A shortcode is a simple snippet inside a page.\nHugo-theme-learn provides multiple shortcodes on top of existing ones.\n Fonts  Font Settings\n Attachments  The Attachments shortcode displays a list of files attached to a page.\n "
 },
 {
-	"uri": "/en/elegantpaper/options/",
+	"uri": "https://elegantlatex.org/en/elegantpaper/options/",
 	"title": "Attachments",
 	"tags": [],
 	"description": "The Attachments shortcode displays a list of files attached to a page.",
 	"content": ""
 },
 {
-	"uri": "/en/categories/",
+	"uri": "https://elegantlatex.org/en/categories/",
 	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/en/installation/",
-	"title": "Credits",
-	"tags": [],
-	"description": "",
-	"content": " Contributors Thanks to them  for making Open Source Software a better place !\n"
-},
-{
-	"uri": "/en/",
+	"uri": "https://elegantlatex.org/en/",
 	"title": "ElegantLaTeX",
 	"tags": [],
 	"description": "",
 	"content": " ElegantLaTeX \nThe ElegantLaTeX program is established in 2013 by Ethan Deng and Liam Huang. The first template is ElegantNote which is designed to simplify the work of taking notes. In the following years, ElegantNote is re-designed for notes, and ElegantBook is renewed as book template on the basis of original ElegantNote. Last year, we started the new project of ElegantPaper designed for writing working papers. The goal of ElegantLaTeX program to design elegant and beautiful LaTeX templates is unchanged these years.\nElegant LaTeX, Elegant Life.\nTemplates Now ElegantLaTeX consists of three templates.\n ElegantNote: An Elegant LaTeX Template for Notes; ElegantBook: An Elegant LaTeX Template for Books; ElegantPaper: An Elegant LaTeX Template for Working Papers.  links  Homepage: https://elegantlatex.org/ Github: https://github.com/ElegantLaTeX CTAN:  ElegantNote: tbu; ElegantBook: tbu; ElegantPaper: ver 0.02.  Weibo: https://weibo.com/elegantlatex Email: elegantlatex2e@gmail.com Wechat：ElegantLaTeX  If you have any questions, you can create issues under corresponding template or email us.\n"
 },
 {
-	"uri": "/en/tags/",
+	"uri": "https://elegantlatex.org/en/installation/",
+	"title": "Installation",
+	"tags": [],
+	"description": "",
+	"content": " In this section, we will introduce the installation methods through cmd line or package manager of TeX Live 2018.\nCmd Line Method Run command line as administrator, the installation commands is\ntlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet tlmgr install elegantpaper  If you want to update or uninstall package, you can use\ntlmgr update elegantpaper tlmgr uninstall elegantpaper  Package Mananger Method Search tlmgr in windows, and open TeX Live Manager,\n\nclick tlmgr and choose Load standard net repository: http://mirror.ctan.org/systems/texlive/tlnet ：\n\ntype the package name in the blank, and select the package you want to install/update/uninstall and click the action you wish.\n\nComplete.\n"
+},
+{
+	"uri": "https://elegantlatex.org/en/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",

@@ -35,13 +35,13 @@ weight = 10
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> Github"
-identifier = "ds"
+identifier = "git"
 url = "https://github.com/ElegantLaTeX"
 weight = 11
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-weibo'></i> Weibo"
-identifier = "hugodoc"
+identifier = "weibo"
 url = "https://gohugo.io/"
 weight = 12
 
@@ -64,13 +64,13 @@ weight = 10
 
 [[Languages.cn.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> Github"
-identifier = "ds"
+identifier = "git"
 url = "https://github.com/ElegantLaTeX"
 weight = 11
 
 [[Languages.cn.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-weibo'></i> 微博"
-identifier = "hugodoc"
+identifier = "weibo"
 url = "https://gohugo.io/"
 weight = 12
 
