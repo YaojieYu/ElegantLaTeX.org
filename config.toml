@@ -1,4 +1,4 @@
-baseURL = "/"
+baseurl = "https://elegantlatex.org/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
@@ -18,69 +18,67 @@ publishDir = "docs"
   disableNextPrev = true
   themeVariant = "blue"
 
+
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
-[Languages]
 [Languages.en]
 title = "Documentation for ElegantLaTeX Templates"
 weight = 1
 languageName = "English"
 
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-user-cog'></i> Installation"
+url = "installation"
+weight = 10
+
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> Github"
 identifier = "ds"
 url = "https://github.com/ElegantLaTeX"
-weight = 10
-
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-camera'></i> Showcases"
-url = "showcase"
 weight = 11
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bookmark'></i> Installation"
-identifier = "hugodoc"
-url = "installation"
-weight = 15
-
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bookmark'></i> Hugo"
+name = "<i class='fab fa-fw fa-weibo'></i> Weibo"
 identifier = "hugodoc"
 url = "https://gohugo.io/"
-weight = 20
+weight = 12
 
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-weixin'></i> WeChat"
+url = "showcase"
+weight = 20
 
 
 [Languages.cn]
 title = "ElegantLaTeX 系列模板文档说明"
 weight = 2
-languageName = "Chinese"
+languageName = "中文"
+
+[[Languages.cn.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-user-cog'></i> 安装"
+url = "installation"
+weight = 10
 
 [[Languages.cn.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> Github"
 identifier = "ds"
 url = "https://github.com/ElegantLaTeX"
-weight = 10
-
-[[Languages.cn.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-camera'></i> 截图"
-url = "/showcase"
 weight = 11
 
 [[Languages.cn.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-camera'></i> 安装"
-url = "/installation"
-weight = 15
-
-[[Languages.cn.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bookmark'></i> 文档"
+name = "<i class='fab fa-fw fa-weibo'></i> 微博"
 identifier = "hugodoc"
 url = "https://gohugo.io/"
+weight = 12
+
+[[Languages.cn.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-weixin'></i> 微信"
+url = "showcase"
 weight = 20
 
-[[Languages.en.menu.Title]]
-other = "Links"
 
 
 

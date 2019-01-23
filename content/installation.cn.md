@@ -27,11 +27,11 @@ tlmgr uninstall elegantpaper
 
 <center><img src="/image/tlmgr.png" width="600"></center>
 
-然后通过菜单 tlmgr 选择 __Load standard net repository: http://mirror.ctan.org/systems/texlive/tlnet__：
+然后通过菜单 tlmgr 选择 **Load standard net repository: http://mirror.ctan.org/systems/texlive/tlnet** ：
 
 <center><img src="/image/tlmgr-1.png" width="600"></center>
 
-然后在__匹配__框内输入包的名字，比如 `elegantpaper`，在搜索结果中勾选需要安装/更新/卸载的包：
+然后在匹配框内输入包的名字，比如 `elegantpaper`，在搜索结果中勾选需要安装/更新/卸载的包：
 
 <center><img src="/image/tlmgr-2.png" width="600"></center>
 
