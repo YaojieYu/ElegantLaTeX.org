@@ -2,7 +2,7 @@
 title: "ElegantLaTeX Templates"
 ---
 
-# ElegantLaTeX
+# ElegantLaTeX Templates
 
 <center><img src="/image/logo.png" width="200"></center>
 

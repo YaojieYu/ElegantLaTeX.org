@@ -2,7 +2,7 @@
 title: "ElegantLaTeX 系列模板"
 ---
 
-# ElegantLaTeX 
+# ElegantLaTeX 系列模板 
 
 <center><img src="/image/logo.png" width="200"></center>
 
