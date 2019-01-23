@@ -1,5 +1,5 @@
 ---
-title: "ElegantLaTeX"
+title: "ElegantLaTeX 系列模板"
 ---
 
 # ElegantLaTeX 

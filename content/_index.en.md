@@ -1,5 +1,5 @@
 ---
-title: "ElegantLaTeX"
+title: "ElegantLaTeX Templates"
 ---
 
 # ElegantLaTeX
