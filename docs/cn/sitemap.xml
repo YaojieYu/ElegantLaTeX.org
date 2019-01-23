@@ -131,4 +131,18 @@
                 />
   </url>
   
+  <url>
+    <loc>https://elegantlatex.org/cn/wechat/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elegantlatex.org/en/wechat/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://elegantlatex.org/cn/wechat/"
+                />
+  </url>
+  
 </urlset>

@@ -40,5 +40,14 @@ tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet tlmgr insta
 tlmgr update elegantpaper tlmgr uninstall elegantpaper  Package Mananger Method Search tlmgr in windows, and open TeX Live Manager,</description>
     </item>
     
+    <item>
+      <title>WeChat</title>
+      <link>https://elegantlatex.org/en/wechat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elegantlatex.org/en/wechat/</guid>
+      <description>You can follow us at WeChat:</description>
+    </item>
+    
   </channel>
 </rss>

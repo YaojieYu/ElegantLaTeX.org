@@ -42,13 +42,13 @@ weight = 11
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-weibo'></i> Weibo"
 identifier = "weibo"
-url = "https://gohugo.io/"
+url = "https://weibo.com/elegantlatex"
 weight = 12
 
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-weixin'></i> WeChat"
-url = "showcase"
+url = "wechat"
 weight = 20
 
 
@@ -71,12 +71,12 @@ weight = 11
 [[Languages.cn.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-weibo'></i> 微博"
 identifier = "weibo"
-url = "https://gohugo.io/"
+url = "https://weibo.com/elegantlatex"
 weight = 12
 
 [[Languages.cn.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-weixin'></i> 微信"
-url = "showcase"
+url = "wechat"
 weight = 20
 
 
