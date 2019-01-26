@@ -8,11 +8,6 @@
 
 ## 公众号内容
 
-+ 介绍 ElegantLaTeX 的由来，创始人，团队成员；
-+ 介绍 ElegantLaTeX 目前的子项目；
-    * ElegantNote
-    * ElegantBook
-    * ElegantPaper
 + 发布每个子项目的使用说明；
 + 与 LaTeX 工作室合作发布;
 + 介绍未来的设计计划
