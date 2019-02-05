@@ -33,7 +33,7 @@ click tlmgr and choose __Load standard net repository: http://mirror.ctan.org/sy
 
 type the package name in the blank, and select the package you want to install/update/uninstall and click the action you wish.
 
-<center><img src="/image/tlmgr-2.png" width="600"></center>
+<center><img src="/image/tlmgr-paper.png" width="600"></center>
 
 Complete.
 

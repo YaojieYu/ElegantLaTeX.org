@@ -33,6 +33,7 @@ tlmgr uninstall elegantpaper
 
 然后在匹配框内输入包的名字，比如 `elegantpaper`，在搜索结果中勾选需要安装/更新/卸载的包：
 
-<center><img src="/image/tlmgr-2.png" width="600"></center>
+<center><img src="/image/tlmgr-paper.png" width="600"></center>
 
+完成。
 
