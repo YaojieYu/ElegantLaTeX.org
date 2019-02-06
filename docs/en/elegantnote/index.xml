@@ -6,10 +6,91 @@
     <description>Recent content in ElegantNote on Documentation for ElegantLaTeX Templates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 09 Apr 2016 16:50:16 +0200</lastBuildDate>
     
 	<atom:link href="https://elegantlatex.org/en/elegantnote/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Good for Eye Mode</title>
+      <link>https://elegantlatex.org/en/elegantnote/goodforeyemode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elegantlatex.org/en/elegantnote/goodforeyemode/</guid>
+      <description>This template added good for eye mode (geye), the default is none, you can switch to good eye mode using:
+\documentclass[geye]{elegantnote} % or \documentclass[mode=geye]{elegantnote}  Remark: In this version, only one background color is added. If you are expected to add other colors, you can create issues or pull requests at Github/ElegantNote.</description>
+    </item>
+    
+    <item>
+      <title>Device Options</title>
+      <link>https://elegantlatex.org/en/elegantnote/deviceoptions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elegantlatex.org/en/elegantnote/deviceoptions/</guid>
+      <description>To make the notes more comfortable to read, we designed four output options (of different sizes) that correspond to different reading devices: Pad, Kindle, PC and A4paper. The options of output for different devices are
+\documentclass[device=pad]{elegantnote} \documentclass[device=kindle]{elegantnote} \documentclass[device=pc]{elegantnote} \documentclass[device=normal]{elegantnote}  Note: You can also select the device by using a direct assignment method, such as:
+\documentclass[pad]{elegantnote} \documentclass[kindle]{elegantnote} \documentclass[pc]{elegantnote} \documentclass[normal]{elegantnote}  Note that if you want a normal A4paper size PDF, you need to select device=normal instead of device=pc , because device=pc is actually set to double page mode on your computer.</description>
+    </item>
+    
+    <item>
+      <title>Color Themes</title>
+      <link>https://elegantlatex.org/en/elegantnote/colorthemes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elegantlatex.org/en/elegantnote/colorthemes/</guid>
+      <description>This template contains 5 color themes, green, cyan, blue, sakura, black. Where green is the default color theme, if you don’t need color, you can choose black theme. The color theme is enabled in the same way as before:
+\documentclass[green]{elegantnote} \documentclass[color=green]{elegantnote} .... \documentclass[black]{elegantnote} \documentclass[color=black]{elegantnote}  </description>
+    </item>
+    
+    <item>
+      <title>Languages</title>
+      <link>https://elegantlatex.org/en/elegantnote/languages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elegantlatex.org/en/elegantnote/languages/</guid>
+      <description>This template contains two sets of language environments, changing the language environment will change the title of table/ﬁgure (figure, table), article structure words (such as the table of contents, references, etc.), and the environment introductory words (such as Theorem, Lemma, etc.). The different language modes are enabled as follows:
+\documentclass[cn]{elegantnote} \documentclass[lang=cn]{elegantnote} \documentclass[en]{elegantnote} \documentclass[lang=en]{elegantnote}  Note You can input Chinese Characters in either environment.</description>
+    </item>
+    
+    <item>
+      <title>Compilation Methods</title>
+      <link>https://elegantlatex.org/en/elegantnote/compilationmethods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elegantlatex.org/en/elegantnote/compilationmethods/</guid>
+      <description>You can use PDFLaTeX or XeLaTeX to process your notes.
+ If you are using PDFLaTeX, ctex package is used; If you are using XeLaTeX , xeCJK package is called when processing Chinese characters.  The test environment is Win10 + TeX Live 2018. If you are using a Mac/Linux system and compiled with XeLaTeX, please change the font in elegantnote.cls with your system font.
+Note: If you are using PDFLaTeX, you do not need to change the font settings.</description>
+    </item>
+    
+    <item>
+      <title>Theorem Class Environments</title>
+      <link>https://elegantlatex.org/en/elegantnote/theoremclassenvironments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elegantlatex.org/en/elegantnote/theoremclassenvironments/</guid>
+      <description>This template used the amsthm to create theorems, there are 4 types of theorem environments
+ Theorem-Class: theorem, lemma, proposition, corollary; Deﬁnition-Class: deﬁnition, conjecture, example; Remark-Class: remark, note, case; Proof-Class: proof.  Remark: With the option lang=cn, the introductory words of the theorem class environments will be changed to Chinese.</description>
+    </item>
+    
+    <item>
+      <title>Minimal Example</title>
+      <link>https://elegantlatex.org/en/elegantnote/minimalexample/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elegantlatex.org/en/elegantnote/minimalexample/</guid>
+      <description>Here is a minimal example.
+\documentclass[geye,green,pad,en]{elegantnote} \title{A Note Example} \author{ddswhu} \institute{Elegant\LaTeX{} Program} \version{1.00} \date{\today} \begin{document} \maketitle \section{Introduction} Example Text. \end{document}  </description>
+    </item>
+    
+    <item>
+      <title>Minimal Example</title>
+      <link>https://elegantlatex.org/en/elegantnote/minimalexample/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elegantlatex.org/en/elegantnote/minimalexample/</guid>
+      <description>Here is a minimal example.
+\documentclass[geye,green,pad,en]{elegantnote} \title{A Note Example} \author{ddswhu} \institute{Elegant\LaTeX{} Program} \version{1.00} \date{\today} \begin{document} \maketitle \section{Introduction} Example Text. \end{document}  </description>
+    </item>
     
   </channel>
 </rss>

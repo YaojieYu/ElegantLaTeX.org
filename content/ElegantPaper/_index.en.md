@@ -1,16 +1,11 @@
 ---
-date: 2016-04-09T16:50:16+02:00
 title: ElegantPaper
 pre: "<b>3. </b>"
 weight: 3
 ---
 
-Hugo uses Markdown for its simple content format. However, there are a lot of things that Markdown doesn’t support well. You could use pure HTML to expand possibilities.
+ElegantPaper is designed for writing a working paper, especially for economics students. This template is based on the standard LaTeX `article` class, which means you can pass the arguments of article class to it (`a4paper`, `12pt` and etc.). It supports different engines, You can choose either `PDFLaTeX` or `XeLaTeX` .
 
-But this happens to be a bad idea. Everyone uses Markdown because it's pure and simple to read even non-rendered. You should avoid HTML to keep it as simple as possible.
+The goal of this template is to make the writing process easier and more comfortable. You can get rid of all the worries about the format. Just enjoy it! If you have any questions, suggestions or bug reports, you can create issues, pull requests or email us at elegantlatex2e@gmail.com.
 
-To avoid this limitations, Hugo created [shortcodes](https://gohugo.io/extras/shortcodes/). A shortcode is a simple snippet inside a page.
-
-**Hugo-theme-learn** provides multiple shortcodes on top of existing ones.
-
-{{%children style="h2" description="true" %}}
+This work is released under the LaTeX Project Public License, v1.3c or later. 

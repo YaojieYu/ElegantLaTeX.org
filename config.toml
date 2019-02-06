@@ -15,7 +15,7 @@ publishDir = "docs"
   author = "ElegantLaTeX"
   showVisitedLinks = true
   disableBreadcrumb = false
-  disableNextPrev = true
+  disableNextPrev = false
   themeVariant = "blue"
 
 

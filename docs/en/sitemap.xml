@@ -4,7 +4,6 @@
   
   <url>
     <loc>https://elegantlatex.org/en/elegantnote/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
@@ -14,6 +13,34 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://elegantlatex.org/en/elegantnote/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://elegantlatex.org/en/elegantnote/goodforeyemode/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://elegantlatex.org/cn/elegantnote/goodforeyemode/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elegantlatex.org/en/elegantnote/goodforeyemode/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://elegantlatex.org/en/elegantpaper/languages/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://elegantlatex.org/cn/elegantpaper/languages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elegantlatex.org/en/elegantpaper/languages/"
                 />
   </url>
   
@@ -33,22 +60,63 @@
   </url>
   
   <url>
-    <loc>https://elegantlatex.org/en/elegantpaper/fonts/</loc>
+    <loc>https://elegantlatex.org/en/elegantnote/deviceoptions/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="https://elegantlatex.org/cn/elegantpaper/fonts/"
+                href="https://elegantlatex.org/cn/elegantnote/deviceoptions/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://elegantlatex.org/en/elegantpaper/fonts/"
+                href="https://elegantlatex.org/en/elegantnote/deviceoptions/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://elegantlatex.org/en/elegantpaper/fontsettings/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://elegantlatex.org/cn/elegantpaper/fontsettings/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elegantlatex.org/en/elegantpaper/fontsettings/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://elegantlatex.org/en/elegantnote/colorthemes/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://elegantlatex.org/cn/elegantnote/colorthemes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elegantlatex.org/en/elegantnote/colorthemes/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://elegantlatex.org/en/elegantpaper/customcommands/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://elegantlatex.org/cn/elegantpaper/customcommands/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elegantlatex.org/en/elegantpaper/customcommands/"
                 />
   </url>
   
   <url>
     <loc>https://elegantlatex.org/en/elegantpaper/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
@@ -62,16 +130,142 @@
   </url>
   
   <url>
-    <loc>https://elegantlatex.org/en/elegantpaper/options/</loc>
+    <loc>https://elegantlatex.org/en/elegantnote/languages/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="https://elegantlatex.org/cn/elegantpaper/options/"
+                href="https://elegantlatex.org/cn/elegantnote/languages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://elegantlatex.org/en/elegantpaper/options/"
+                href="https://elegantlatex.org/en/elegantnote/languages/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://elegantlatex.org/en/elegantpaper/lists/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://elegantlatex.org/cn/elegantpaper/lists/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elegantlatex.org/en/elegantpaper/lists/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://elegantlatex.org/en/elegantnote/compilationmethods/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://elegantlatex.org/cn/elegantnote/compilationmethods/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elegantlatex.org/en/elegantnote/compilationmethods/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://elegantlatex.org/en/elegantpaper/graphics/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://elegantlatex.org/cn/elegantpaper/graphics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elegantlatex.org/en/elegantpaper/graphics/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://elegantlatex.org/en/elegantpaper/tables/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://elegantlatex.org/cn/elegantpaper/tables/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elegantlatex.org/en/elegantpaper/tables/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://elegantlatex.org/en/elegantnote/theoremclassenvironments/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://elegantlatex.org/cn/elegantnote/theoremclassenvironments/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elegantlatex.org/en/elegantnote/theoremclassenvironments/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://elegantlatex.org/en/elegantpaper/bibliography/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://elegantlatex.org/cn/elegantpaper/bibliography/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elegantlatex.org/en/elegantpaper/bibliography/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://elegantlatex.org/en/elegantnote/minimalexample/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://elegantlatex.org/cn/elegantnote/minimalexample/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elegantlatex.org/en/elegantnote/minimalexample/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://elegantlatex.org/en/elegantnote/minimalexample/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://elegantlatex.org/cn/elegantnote/minimalexample/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elegantlatex.org/en/elegantnote/minimalexample/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://elegantlatex.org/en/elegantpaper/minimalexample/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://elegantlatex.org/cn/elegantpaper/minimalexample/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elegantlatex.org/en/elegantpaper/minimalexample/"
                 />
   </url>
   

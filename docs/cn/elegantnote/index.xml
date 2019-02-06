@@ -10,5 +10,76 @@
 	<atom:link href="https://elegantlatex.org/cn/elegantnote/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>护眼模式</title>
+      <link>https://elegantlatex.org/cn/elegantnote/goodforeyemode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elegantlatex.org/cn/elegantnote/goodforeyemode/</guid>
+      <description>本模板增加了护眼模式，默认为不开启，开启的方法如下：
+\documentclass[geye]{elegantnote} % 或者 \documentclass[mode=geye]{elegantnote}  评论： 此次更新只添加了护眼模式（绿豆沙色背景），如果您有希望增加其他颜色，可以在 Github/ElegantNote 创建 issues 或者提交 pull request。</description>
+    </item>
+    
+    <item>
+      <title>设备选择</title>
+      <link>https://elegantlatex.org/cn/elegantnote/deviceoptions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elegantlatex.org/cn/elegantnote/deviceoptions/</guid>
+      <description>为了让笔记方便在不同设备上阅读，免去切边，缩放等操作，本模板适配不同的屏幕大小，分别为 Pad，Kindle，PC，A4。不同屏幕的选择为
+\documentclass[device=pad]{elegantnote} \documentclass[device=kindle]{elegantnote} \documentclass[device=pc]{elegantnote} \documentclass[device=normal]{elegantnote}  注： 也可以采取直接赋值的方法选择屏幕，比如：
+\documentclass[pad]{elegantnote} \documentclass[kindle]{elegantnote} \documentclass[pc]{elegantnote} \documentclass[normal]{elegantnote}  注： 如果想要得到普通的 A4 纸张大小的 PDF，需要选择 device=normal，而不是选择 device=pc，因为 device=pc 实际上设置的是电脑双页模式。</description>
+    </item>
+    
+    <item>
+      <title>颜色主题</title>
+      <link>https://elegantlatex.org/cn/elegantnote/colorthemes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elegantlatex.org/cn/elegantnote/colorthemes/</guid>
+      <description>本模板内置 5 套颜色主题，分别是 green，cyan，blue，sakura，black。其中 green 为默认颜色主题，如果用户不需要彩色，可以选择 black 主题。颜色主题的启用方法和之前一样：
+\documentclass[green]{elegantnote} \documentclass[color=green]{elegantnote} ... \documentclass[black]{elegantnote} \documentclass[color=black]{elegantnote}  </description>
+    </item>
+    
+    <item>
+      <title>语言模式</title>
+      <link>https://elegantlatex.org/cn/elegantnote/languages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elegantlatex.org/cn/elegantnote/languages/</guid>
+      <description>本模板内含两套语言环境，改变语言环境会改变图表标题的引导词（图，表），文章结构词（比如目录，参考文献等），以及定理环境中的引导词（比如定理，引理等）。不同语言模式的启用如下：
+\documentclass[cn]{elegantnote} % 中文模式 \documentclass[lang=cn]{elegantnote} \documentclass[en]{elegantnote} % 英文模式 \documentclass[lang=en]{elegantnote}  注： 不管选用中文环境还是英文环境均可输入中文。另外如果在笔记中使用了抄录环境（lstlisting），并且其中包括了中文，请务必使用 XeLaTeX 编译。本说明文档也只能通过 XeLaTeX 编译。</description>
+    </item>
+    
+    <item>
+      <title>编译方式</title>
+      <link>https://elegantlatex.org/cn/elegantnote/compilationmethods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elegantlatex.org/cn/elegantnote/compilationmethods/</guid>
+      <description>本模板支持两种编译方式，PDFLaTeX 和 XeLaTeX。
+ 选用 PDFLaTeX 编译的话，如果用到了中文，则会调用 ctex 宏包； 选用 XeLaTeX 编译的话，则会调用 xeCJK 宏包。  模板测试环境为 Win10 + TEX Live 2018，设定的字体为 Windows 中的宋体、楷体、黑体、微软雅黑等。如果你的电脑是 Mac/Linux 系统，而且采用 XeLaTeX 编译的话，请把 elegantnote.cls 中字体改为自己系统的字体。</description>
+    </item>
+    
+    <item>
+      <title>定理类环境</title>
+      <link>https://elegantlatex.org/cn/elegantnote/theoremclassenvironments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elegantlatex.org/cn/elegantnote/theoremclassenvironments/</guid>
+      <description>此模板采用了 amsthm 中的定理样式，使用了 4 类定理样式，所包含的环境分别为
+ 定理类：theorem，lemma，proposition，corollary； 定义类：definition，conjecture，example； 备注类：remark，note，case； 证明类：proof。  评论： 在选用 lang=cn 时，定理类环境的引导词全部会改为中文。</description>
+    </item>
+    
+    <item>
+      <title>最小示例</title>
+      <link>https://elegantlatex.org/cn/elegantnote/minimalexample/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elegantlatex.org/cn/elegantnote/minimalexample/</guid>
+      <description>安装之后即可使用，下面是一个示例：
+\documentclass[geye,green,pad,cn]{elegantnote} \title{一个笔记示例} \author{ddswhu} \institute{Elegant\LaTeX{} 项目组} \version{1.00} \date{2019 年 2 月 3 日} \begin{document} \maketitle \section{介绍} 介绍部分内容。 \end{document}  </description>
+    </item>
+    
   </channel>
 </rss>

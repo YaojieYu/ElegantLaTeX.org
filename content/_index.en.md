@@ -14,22 +14,8 @@ Elegant LaTeX, Elegant Life.
 
 Now ElegantLaTeX consists of three templates.
 
-+ [ElegantNote](https://github.com/ElegantLaTeX/ElegantNote): An Elegant LaTeX Template for Notes;
-+ [ElegantBook](https://github.com/ElegantLaTeX/ElegantBook): An Elegant LaTeX Template for Books;
-+ [ElegantPaper](https://github.com/ElegantLaTeX/ElegantPaper): An Elegant LaTeX Template for Working Papers.
-
-## links
-
-- Homepage: https://elegantlatex.org/
-- Github: https://github.com/ElegantLaTeX
-- CTAN: 
-    - [ElegantNote](https://ctan.org/pkg/elegantnote): tbu;
-    - [ElegantBook](https://ctan.org/pkg/elegantbook): tbu;
-    - [ElegantPaper](https://ctan.org/pkg/elegantpaper): ver 0.02.
-- Weibo: https://weibo.com/elegantlatex
-- Email: elegantlatex2e@gmail.com
-- Wechat：ElegantLaTeX
-
-If you have any questions, you can create issues under corresponding template or email us.
++ [ElegantNote](https://github.com/ElegantLaTeX/ElegantNote): An Elegant LaTeX Template for Notes, [CTAN](https://ctan.org/pkg/elegantnote);
++ [ElegantBook](https://github.com/ElegantLaTeX/ElegantBook): An Elegant LaTeX Template for Books, [CTAN](https://ctan.org/pkg/elegantbook);
++ [ElegantPaper](https://github.com/ElegantLaTeX/ElegantPaper): An Elegant LaTeX Template for Working Papers, [CTAN](https://ctan.org/pkg/elegantpaper).
 
 

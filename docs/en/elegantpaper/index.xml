@@ -6,27 +6,88 @@
     <description>Recent content in ElegantPaper on Documentation for ElegantLaTeX Templates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 09 Apr 2016 16:50:16 +0200</lastBuildDate>
     
 	<atom:link href="https://elegantlatex.org/en/elegantpaper/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Fonts</title>
-      <link>https://elegantlatex.org/en/elegantpaper/fonts/</link>
+      <title>Languages</title>
+      <link>https://elegantlatex.org/en/elegantpaper/languages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elegantlatex.org/en/elegantpaper/fonts/</guid>
-      <description></description>
+      <guid>https://elegantlatex.org/en/elegantpaper/languages/</guid>
+      <description>I deﬁned one option named lang, this option has two alternative values, lang=en (default) or lang=cn . lang=cn will make the caption of ﬁgure/table, abstract name, refname etc. Chinese, while lang=en will keep all these stuff English, as the default article class sets. You can use this option as
+\documentclass[lang=en]{elegantpaper} \documentclass{en}{elegantpaper} % both ok  </description>
     </item>
     
     <item>
-      <title>Attachments</title>
-      <link>https://elegantlatex.org/en/elegantpaper/options/</link>
+      <title>Font Settings</title>
+      <link>https://elegantlatex.org/en/elegantpaper/fontsettings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elegantlatex.org/en/elegantpaper/options/</guid>
-      <description></description>
+      <guid>https://elegantlatex.org/en/elegantpaper/fontsettings/</guid>
+      <description>Compile with PDFLaTeX If you choose PDFLaTeX to process your paper, the default article font computer modern has changed to newtx series, and the default font size is set to 11pt . The fonts are settings with:
+ newtxtext package for text fonts, similar to times new roman font. newtxmath package for math fonts, close to times package. FiraMono package for typewriter fonts, with option scale=0.8 . ctex package for Chinese fonts, with option scheme=plain .</description>
+    </item>
+    
+    <item>
+      <title>Custom Commands</title>
+      <link>https://elegantlatex.org/en/elegantpaper/customcommands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elegantlatex.org/en/elegantpaper/customcommands/</guid>
+      <description>I don’t change any default command or environment, which means you can use all the basic LaTeX commands and environments as before. Besides, I deﬁne 4 commands
+ \email: create the hyperlink to email address. \ﬁgref: same usage as \ref, but start with label text Figure n. \tabref: same usage as \ref, but start with label text Table n. \keywords: create the keywords in the abstract section.  </description>
+    </item>
+    
+    <item>
+      <title>Lists</title>
+      <link>https://elegantlatex.org/en/elegantpaper/lists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elegantlatex.org/en/elegantpaper/lists/</guid>
+      <description>You can use itemize, enumerate, or description environment as below
+\begin{itemize} \item Routing and resource discovery; \item Resilient and scalable networks; \item Distributed storage and search. \end{itemize}   Routing and resource discovery; Resilient and scalable networks; Distributed storage and search.  </description>
+    </item>
+    
+    <item>
+      <title>Graphics</title>
+      <link>https://elegantlatex.org/en/elegantpaper/graphics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elegantlatex.org/en/elegantpaper/graphics/</guid>
+      <description>To include a graphic, you can use ﬁgure environment as usual. You can put all your images in the sub directories ( ./image/ , ./img/ , ./ﬁgure/ , ./ﬁg/ ) of your current working directory.
+\begin{figure}[htbp] \centering \includegraphics[width=0.6\textwidth]{scatter.pdf} \caption{Scatter Plot Example \label{fig:scatter}} \end{figure}  </description>
+    </item>
+    
+    <item>
+      <title>Tables</title>
+      <link>https://elegantlatex.org/en/elegantpaper/tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elegantlatex.org/en/elegantpaper/tables/</guid>
+      <description>I strongly recommend you to use the booktabs package in your paper. It adds three commands to make the table prettier, ie. \toprule, \midrule and \bottomrule.
+\begin{table}[htbp] \small \centering \caption{燃油效率与汽⻋价格} \begin{tabular}{lcc} \toprule &amp;amp; (1) &amp;amp; (2) \\ \midrule 燃油效率 &amp;amp; -238.90*** &amp;amp; -49.51 \\ &amp;amp; (53.08) &amp;amp; (86.16) \\ 汽车重量 &amp;amp; &amp;amp; 1.75*** \\ &amp;amp; &amp;amp; (0.641) \\ 常数项 &amp;amp; 11,253*** &amp;amp; 1,946 \\ &amp;amp; (1,171) &amp;amp; (3,597) \\ 观测数 &amp;amp; 74 &amp;amp; 74 \\ $R^2$ &amp;amp; 0.</description>
+    </item>
+    
+    <item>
+      <title>Bibliography</title>
+      <link>https://elegantlatex.org/en/elegantpaper/bibliography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elegantlatex.org/en/elegantpaper/bibliography/</guid>
+      <description>This template uses BibTeX to generate the bibliography, the default bibliography style is aer . Let’s take a glance at the citation effect, Chen et al. (2018) use data from a major peer-to-peer lending marketplace in China to study whether female and male investors evaluate loan performance differently.
+If you want to use BibTeX, you must create a ﬁle named wpref.bib , and add bib items (from Google Scholar, Mendeley, EndNote, and etc.</description>
+    </item>
+    
+    <item>
+      <title>Minimal Example</title>
+      <link>https://elegantlatex.org/en/elegantpaper/minimalexample/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elegantlatex.org/en/elegantpaper/minimalexample/</guid>
+      <description>Here is a minimal example.
+\documentclass[lang=en]{elegantpaper} % title information \title{A Working Paper Example} \author{ddswhu} \institute{Elegant\LaTeX{} Group} \version{1.00} \date{\today} \begin{document} \maketitle \begin{abstract} Your abstract goes here. \keywords{keyword1, keyword2} \end{abstract} \section{Introduction} The content of introduction section. \section{Conclusion} The content of conclusion section. % include the noncited reference \nocite{ref1, ref2} \bibliography{wpref} \end{document}  </description>
     </item>
     
   </channel>

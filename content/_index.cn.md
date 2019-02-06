@@ -15,23 +15,9 @@ Elegant LaTeX, Elegant Life! 优雅地写作，优雅的生活！
 
 ElegantLaTeX 目前有 3 套模板：
 
-+ [ElegantNote](https://github.com/ElegantLaTeX/ElegantNote)：笔记模板；
-+ [ElegantBook](https://github.com/ElegantLaTeX/ElegantBook)：书籍模板；
-+ [ElegantPaper](https://github.com/ElegantLaTeX/ElegantPaper)：工作论文模板。
++ [ElegantNote](https://github.com/ElegantLaTeX/ElegantNote)：笔记模板，[CTAN](https://ctan.org/pkg/elegantnote)；
++ [ElegantBook](https://github.com/ElegantLaTeX/ElegantBook)：书籍模板，[CTAN](https://ctan.org/pkg/elegantbook)；
++ [ElegantPaper](https://github.com/ElegantLaTeX/ElegantPaper)：工作论文模板，[CTAN](https://ctan.org/pkg/elegantpaper)。
 
-## 相关链接
-
-- 主页: https://elegantlatex.org/
-- Github: https://github.com/ElegantLaTeX
-- CTAN: 
-    - [ElegantNote](https://ctan.org/pkg/elegantnote)：待传；
-    - [ElegantBook](https://ctan.org/pkg/elegantbook)：待传；
-    - [ElegantPaper](https://ctan.org/pkg/elegantpaper)：版本 0.02。
-- 微博: https://weibo.com/elegantlatex
-- 邮箱: elegantlatex2e@gmail.com
-- 公众号：ElegantLaTeX
-
-
-如果您对 ElegantLaTeX 项目组有兴趣或者有任何问题欢迎联系我们。 
 
 
